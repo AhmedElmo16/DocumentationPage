@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Python</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- <div id="titl">
+      <h1>Python</h1>
+    </div> !-->
+
+    <nav id="navbar">
+      <header>Python</header>
+      <ul>
+        <li><a class="nav-link" href="#Einführung">Einführung</a></li>
+        <li><a class="nav-link" href="#Was_du_wissen_solltest">Was du wissen solltest</a></li>
+        <li><a class="nav-link" href="#Python_vs_andere_Programmiersprachen">Python vs andere Programmiersprachen</a></li>
+        <li><a class="nav-link" href="#Ein_einfaches_Python-Programm">Ein einfaches Python-Programm</a></li>
+        <li><a class="nav-link" href="#Variablen_und_Datentypen">Variablen und Datentypen</a></li>
+        <li><a class="nav-link" href="#Kontrollstrukturen_in_Python">Kontrollstrukturen in Python</a></li>
+        <li><a class="nav-link" href="#Funktionen_in_Python">Funktionen in Python</a></li>
+        <li><a class="nav-link" href="#Fazit">Fazit</a></li>
+        <li><a class="nav-link" href="#Referenz">Referenz</a></li>
+
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section id="Einführung" class="main-section">
+        <header>Einführung</header>
+        <p>Python ist eine weit verbreitete, interpretierte und hochgradig lesbare Programmiersprache. Sie wurde von Guido van Rossum in den späten 1980er Jahren entwickelt und erfreut sich großer Beliebtheit aufgrund ihrer klaren Syntax und ihrer Vielseitigkeit. Python kann für eine Vielzahl von Anwendungen genutzt werden, darunter Webentwicklung, Datenanalyse, künstliche Intelligenz, Automatisierung und vieles mehr.</p>
+        <p>Python ist eine dynamisch typisierte Sprache und unterstützt mehrere Programmierparadigmen, darunter das objektorientierte, prozedurale und funktionale Programmieren. Sie bietet eine breite Palette an Standardbibliotheken, die Funktionen wie Dateiverarbeitung, Netzwerke, Mathematik und viele andere Bereiche abdecken. Durch seine Einfachheit und Leistungsfähigkeit ist Python sowohl für Anfänger als auch für erfahrene Programmierer attraktiv.</p>
+      </section>
+
+      <section id="Was_du_wissen_solltest" class="main-section">
+        <header>Was du wissen solltest</header>
+        <p>Bevor du mit Python beginnst, ist es hilfreich, einige grundlegende Konzepte zu verstehen:</p>
+        <ul>
+          <li>Grundlegende Kenntnisse über Computer und Programmiersprachen.</li>
+          <li>Ein allgemeines Verständnis von Variablen, Schleifen und Bedingungsanweisungen.</li>
+          <li>Ein Interesse daran, problemorientierte Aufgaben durch Programmierung zu lösen.</li>
+        </ul>
+        <p>Wenn du ein absoluter Neuling in der Programmierung bist, bietet Python viele Ressourcen und Tutorials, um dir den Einstieg zu erleichtern. Python hat eine aktive Community, die eine Fülle an Dokumentation und Unterstützung bietet.</p>
+      </section>
+
+      <section id="Python_vs_andere_Programmiersprachen" class="main-section">
+        <header>Python vs andere Programmiersprachen</header>
+        <p>Python unterscheidet sich in vielerlei Hinsicht von anderen Programmiersprachen. Im Gegensatz zu Sprachen wie C++ oder Java erfordert Python keine explizite Deklaration von Datentypen. Variablen werden zur Laufzeit dynamisch zugewiesen, und Python übernimmt das Speicher- und Ressourcenmanagement automatisch. Das macht die Sprache einfacher zu verwenden, da Programmierer sich mehr auf die Lösung von Problemen und weniger auf die Verwaltung von Details konzentrieren müssen.</p>
+        <p>Eine weitere Besonderheit von Python ist die Betonung auf Code-Lesbarkeit. Durch den Einsatz von Einrückungen zur Strukturierung von Codeblöcken (anstelle von Klammern oder Schlüsselwörtern) wirkt Python-Code sauberer und ist einfacher zu verstehen. Dies ist einer der Hauptgründe, warum Python oft in der Lehre und bei Projekten eingesetzt wird, die auf eine schnelle Entwicklung und Wartbarkeit abzielen.</p>
+      </section>
+
+      <section id="Ein_einfaches_Python-Programm" class="main-section">
+        <header>Ein einfaches Python-Programm</header>
+        <p>Das Schreiben eines einfachen Python-Programms ist denkbar einfach. Hier ein Beispiel, wie man mit Python "Hello, World!" ausgibt:</p>
+        <p class="code-snippet"><code>print("Hello, World!")</code></p>
+        <p>Das <span class="code-word">print()</span>-Kommando gibt die Zeichenfolge auf dem Bildschirm aus. Um dieses Programm auszuführen, kannst du es in einer Datei speichern und im Terminal oder einer Python-IDE (wie PyCharm oder VSCode) starten.</p>
+      </section>
+
+      <section id="Variablen_und_Datentypen" class="main-section">
+        <header>Variablen und Datentypen</header>
+        <p>In Python kannst du Variablen ohne explizite Deklaration verwenden. Python erkennt den Datentyp der Variablen automatisch, basierend auf dem zugewiesenen Wert. Einige der grundlegenden Datentypen in Python sind:</p>
+        <ul>
+          <li>int: Ganze Zahlen <span class="code-word">(z.B. 42)</span></li>
+          <li>float: Gleitkommazahlen (z.B. <span class="code-word">3.14</span>)</li>
+          <li>str: Zeichenketten (z.B. <span class="code-word">"Hallo"</span>)</li>
+          <li>bool: Wahrheitswerte (<span class="code-word">True</span> oder <span class="code-word">False</span>)</li>
+        </ul>
+        <p>Hier ein Beispiel zur Verwendung von Variablen:</p>
+        <p class="code-snippet"><code>x = 10 <br>
+y = 3.14 <br>
+name = "Alice" <br>
+is_active = True</code>
+</p>
+<p>Du kannst den Wert einer Variablen auch zur Laufzeit ändern, da Python nicht stark typisiert ist. Das bedeutet, dass eine Variable, die zunächst eine Zahl speichert, später auch einen Text speichern kann.</p>
+      </section>
+
+      <section id="Kontrollstrukturen_in_Python" class="main-section">
+        <header>Kontrollstrukturen in Python</header>
+        <p>Wie in anderen Programmiersprachen bietet Python verschiedene Kontrollstrukturen, um den Ablauf eines Programms zu steuern. Zu den wichtigsten gehören <span class="code-word">if</span>-Anweisungen, <span class="code-word">for</span>-Schleifen und <span class="code-word">while</span>-Schleifen.</p>
+
+        <h4>if-Anweisungen</h4>
+        <p>Eine <span class="code-word">if</span>-Anweisung wird verwendet, um Code nur auszuführen, wenn eine bestimmte Bedingung wahr ist:</p>
+        <p class="code-snippet"><code>x = 10 <br>
+if x > 5: <br>
+    <span class="tab" />print("x ist größer als 5") <br>
+else: <br>
+    <span class="tab" />print("x ist nicht größer als 5")</code>
+</p>
+
+        <h4>Schleifen</h4>
+        <p>Schleifen erlauben es, eine Aktion wiederholt auszuführen. Die am häufigsten verwendeten Schleifen in Python sind <span class="code-word">for</span>- und <span class="code-word">while</span>-Schleifen.</p>
+
+        <h4>for-Schleifen</h4>
+        <p class="code-snippet"><code>for i in range(5):</br><span class="tab" />print(i)</code></p>
+        <p>Dies gibt die Zahlen 0 bis 4 aus.</p>
+
+        <h4>while-Schleife</h4>
+        <p class="code-snippet"><code>count = 0 <br>
+while count < 5: <br>
+    <span class="tab" />print(count) <br>
+    <span class="tab" />count += 1</code></p>
+      <p>Dies ist eine weitere Art von Schleife, die wiederholt ausgeführt wird, solange die Bedingung <span class="code-word">True</span> ist.</p>
+      </section>
+
+      <section id="Funktionen_in_Python" class="main-section">
+        <header>Funktionen in Python</header>
+        <p>Funktionen sind ein zentraler Bestandteil jeder Programmiersprache. In Python werden Funktionen mit dem Schlüsselwort def definiert. Hier ein einfaches Beispiel:</p>
+        <p class="code-snippet"><code>def greet(name): <br>
+    <span class="tab" />return f"Hallo, {name}!"<br>
+
+print(greet("Alice"))</code></p>
+        <p>Die Funktion <span class="code-word">greet</span> nimmt einen Parameter (den Namen) und gibt eine Begrüßung zurück. Funktionen ermöglichen es dir, wiederverwendbaren und modularen Code zu schreiben, der übersichtlicher und leichter wartbar ist.</p>
+      </section>
+
+      <section id="Fazit" class="main-section">
+        <header>Fazit</header>
+        <p>Python ist eine unglaublich vielseitige und mächtige Sprache, die sowohl für Anfänger als auch für Experten geeignet ist. Mit ihrer klaren Syntax und der breiten Unterstützung durch Bibliotheken und Frameworks bietet Python eine ideale Plattform für die Entwicklung unterschiedlichster Anwendungen. Egal, ob du ein kleines Skript schreibst, um Aufgaben zu automatisieren, oder eine komplexe Webanwendung erstellst – Python ist die richtige Wahl.</p>
+      </section>
+
+      <section id="Referenz" class="main-section">
+        <header>Referenz</header>
+        <p>Der oben erstellte Text ist eigenständig formuliert, basierend auf allgemeinen Kenntnissen über Python. Informationen zur Programmiersprache Python sind in vielen Online-Dokumentationen und Büchern verfügbar, insbesondere auf der <a href="https://docs.python.org/3/tutorial/">offiziellen Python-Dokumentationsseite</a></p>
+      </section>
+    </main>
+  </body>
+</html>
